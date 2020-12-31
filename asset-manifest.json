@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/busybee1149.github.io/static/js/main.3d736cd3.chunk.js",
+    "main.js.map": "/busybee1149.github.io/static/js/main.3d736cd3.chunk.js.map",
+    "runtime-main.js": "/busybee1149.github.io/static/js/runtime-main.154f3c66.js",
+    "runtime-main.js.map": "/busybee1149.github.io/static/js/runtime-main.154f3c66.js.map",
+    "static/js/2.da39f87f.chunk.js": "/busybee1149.github.io/static/js/2.da39f87f.chunk.js",
+    "static/js/2.da39f87f.chunk.js.map": "/busybee1149.github.io/static/js/2.da39f87f.chunk.js.map",
+    "index.html": "/busybee1149.github.io/index.html",
+    "static/js/2.da39f87f.chunk.js.LICENSE.txt": "/busybee1149.github.io/static/js/2.da39f87f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.154f3c66.js",
+    "static/js/2.da39f87f.chunk.js",
+    "static/js/main.3d736cd3.chunk.js"
+  ]
+}

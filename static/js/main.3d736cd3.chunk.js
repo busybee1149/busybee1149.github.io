@@ -1,0 +1,2 @@
+(this["webpackJsonpbusbyee1149.github.io"]=this["webpackJsonpbusbyee1149.github.io"]||[]).push([[0],{4:function(e,t,n){"use strict";n.r(t);var i=n(2),o=(n(1),n(3));function s(e){return Object(i.jsx)("div",{children:'"Hello World, dude!"'})}n.n(o).a.render(Object(i.jsx)(s,{}),document.getElementById("root"))}},[[4,1,2]]]);
+//# sourceMappingURL=main.3d736cd3.chunk.js.map
