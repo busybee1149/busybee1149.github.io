@@ -10,7 +10,7 @@ const Menu = () => (
                 <nav>
                 <div className="menu">
                         <Dropdown data-align="right">
-                            <Dropdown.Toggle variant="success" id="dropdown-basic">
+                            <Dropdown.Toggle variant="light" id="dropdown-basic" size='lg'>
                                 ☰
                             </Dropdown.Toggle>
 
