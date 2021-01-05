@@ -1,17 +1,58 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Dropdown from 'react-bootstrap/Dropdown'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+const Menu = () => (
+            <div>
+                <nav>
+                <div className="menu">
+                        <Dropdown data-align="right">
+                            <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                ☰
+                            </Dropdown.Toggle>
+
+                            <Dropdown.Menu>
+                                <Dropdown.Item href="#/about">About</Dropdown.Item>
+                                <Dropdown.Item href="#/resume">Resume</Dropdown.Item>
+                                <Dropdown.Item href="#/travelmap">Travel Map</Dropdown.Item>
+                                <Dropdown.Divider />
+                                <Dropdown.Item href="#/contact">Contact</Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown>
+                    </div>
+                </nav>
+            </div> 
+        );
+
+const Title = () => 
+    ( <div className="titleCentered">
+                <pre className="mainTitle"> @DINESH VIJAYAKUMAR</pre>
+                <pre className="subTitle"> Techologist | Travel Enthusiast| Philanthropist </pre>
+            </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+class HomePage extends React.Component {
+    render() {
+        return (
+            <div className="container">
+                <Title />
+                <Menu />
+                <img className="mainImage" alt="main" src={process.env.PUBLIC_URL + '/images/logo192.png'} />
+            </div>
+            
+        )
+    }
+}
+
+
+
+// ========================================
+
+ReactDOM.render(
+    <HomePage />,
+    document.getElementById('root')
+  );
