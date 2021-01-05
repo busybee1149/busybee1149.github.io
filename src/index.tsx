@@ -30,7 +30,7 @@ const Menu = () => (
 const Title = () => 
     ( <div className="titleCentered">
                 <pre className="mainTitle"> @DINESH VIJAYAKUMAR</pre>
-                <pre className="subTitle"> Techologist | Travel Enthusiast| Philanthropist </pre>
+                <pre className="subTitle"> Technologist | Travel Enthusiast| Philanthropist </pre>
             </div>
 );
 
