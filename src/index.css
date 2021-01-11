@@ -3,7 +3,6 @@ body {
     margin: 20px;
 }
 
-
 ul {
     padding: 0;
     margin: 0;
@@ -29,8 +28,10 @@ ul li a:hover {
 }
 
 .menu {
-    float: right;
-    position: relative;
+    /* float: left; */
+    right: 5px;
+    top: 5px;
+    position: fixed;
 }
 
 .mainImage {
@@ -45,17 +46,18 @@ ul li a:hover {
 .mainTitle {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
-    font-size: 6vw;
-    margin: 30px;
+    font-size: 5vw;
+    margin: 10px;
     block-size: auto;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .subTitle {
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     font-size: 2vw;
-    margin: 30px;
+    margin: 10px;
     text-align: center;
 }
 
