@@ -3,7 +3,7 @@ import Menu from './NavMenu';
 
 const Title = () =>
     ( <div className="titleCentered">
-                <h1 className="mainTitle"> @Dinesh Vijayakumar </h1>
+                <h1 className="mainTitle"> @Dinesh Vijayakumar  </h1>
                 <pre className="subTitle"> Technologist | Travel Enthusiast| Philanthropist </pre>
             </div>
 );
