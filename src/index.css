@@ -37,7 +37,7 @@ ul li a:hover {
 .mainImage {
     width: auto;
     height: auto;
-    top:70%;
+    top:50%;
     left:50%;
     position: fixed;
     transform: translate(-50%, -50%);
@@ -47,23 +47,25 @@ ul li a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
     font-size: 5vw;
-    margin: 10px;
+    margin: 5px;
     block-size: auto;
     text-align: center;
     text-transform: uppercase;
+    color:#0660e8;
 }
 
 .subTitle {
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     font-size: 2vw;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
+    color: #000000;
 }
 
 .titleCentered {
     position: fixed;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

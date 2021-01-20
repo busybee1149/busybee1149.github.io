@@ -15,7 +15,7 @@ return  (
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/about">About</Dropdown.Item>
+                        <Dropdown.Item href="/">About</Dropdown.Item>
                         <Dropdown.Item href="#/resume">Resume</Dropdown.Item>
                         <Dropdown.Item href="/travelmap">Travel Map</Dropdown.Item>
                         <Dropdown.Divider />
