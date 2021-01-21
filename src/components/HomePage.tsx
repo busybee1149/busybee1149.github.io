@@ -14,7 +14,12 @@ function HomePage() {
         <div className="container">
             <Title />
             <Menu />
-            <img className="mainImage" alt="main" src={process.env.PUBLIC_URL + '/images/logo192.png'} />
+            <figure className="figurefx pushup">
+                <img alt="main" src={process.env.PUBLIC_URL + '/images/logo192.png'} />
+                <figcaption>
+                    Photo of Dinesh Vijayakumar
+                </figcaption>
+            </figure>
         </div>
     );
 }
