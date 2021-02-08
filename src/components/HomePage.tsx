@@ -1,19 +1,12 @@
 import React from "react";
-import Menu from './NavMenu';
-
-const Title = () =>
-    ( <section className="titleCentered">
-                <h1 className="mainTitle"> @Dinesh Vijayakumar  </h1>
-                <pre className="subTitle"> Technologist | Travel Enthusiast| Philanthropist </pre>
-      </section>
-);
-
 
 function HomePage() {
     return (
-        <div className="container">
-            <Title />
-            <Menu />
+        <div className="main">
+            <section>
+                <h1 className="mainTitle"> @Dinesh Vijayakumar  </h1>
+                <pre className="subTitle"> Technologist | Travel Enthusiast| Philanthropist </pre>
+             </section>
             <figure className="figurefx pushup">
                 <img alt="main" src={process.env.PUBLIC_URL + '/images/logo192.png'} />
                 <figcaption>

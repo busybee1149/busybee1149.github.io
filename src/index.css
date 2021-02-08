@@ -31,7 +31,7 @@ ul li a:hover {
     /* float: left; */
     right: 5px;
     top: 5px;
-    position: fixed;
+    position: absolute;
 }
 
 .mainTitle {
@@ -54,12 +54,6 @@ ul li a:hover {
     color: #000000;
 }
 
-.titleCentered {
-    position: fixed;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 .container {
     display:flex;
     flex-direction: column;
@@ -67,31 +61,38 @@ ul li a:hover {
     flex-wrap: wrap;
 }
 
-figure.figurefx {
-    max-width: 100%;
+.main {
+    position: relative;
     height: auto;
-    top:50%;
-    left:50%;
-    position: fixed;
-    transform: translate(-50%, -50%);
-    overflow: hidden; /* hide overflowing elements by default */
+    width: auto;
+}
+
+figure.figurefx {
+    width: auto;
+    height: auto;
+    margin-top: 10%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    /*  hide overflowing elements by default */
 }
 
 figure.figurefx figcaption {
     position: absolute;
     display: block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     text-align: center;
     background: white;
     padding: 15px;
     z-index: 100;
-    width: 100%;
+    max-width: 100%;
     max-height: 100%;
-    overflow: hidden;
+    /* width: 100%;
+    max-height: 100%; */
     top: 0%;
-    left: 0;
+    margin-left: 40%;
     -moz-transform: translate3d(-100%, -50%, 0); /* position caption outside layout horizontally and centered vertically */
     -webkit-transform: translate3d(-100%, -50%, 0);
     transform: translate3d(-100%, -50%, 0);
@@ -118,13 +119,11 @@ figure.pushup figcaption {
       transform: translate3d(0, 0, 0);
 }
 
-
 figure.pushup:hover img {
       -moz-transform: translate3d(0, -20px, 0); /* move image up vertically a bit for parallax effect */
       -webkit-transform: translate3d(0, -20px, 0);
       transform: translate3d(0, -20px, 0);
-    opacity: .5;
-
+      opacity: .5;
 }
 
 figure.pushup:hover figcaption{
@@ -134,9 +133,13 @@ figure.pushup:hover figcaption{
       -moz-transition: all 0.5s;
       -webkit-transition: all 0.5s;
       transition: all 0.5s;
-    box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px -2px 28px rgba(0, 0, 0, 0.3);
 }
 
-.footer-container img {
+.footer img {
+    height: 4vw;
+}
+
+.header {
     height: 4vw;
 }
