@@ -5,7 +5,7 @@ function HomePage() {
         <div className="main">
             <div id="homeTitle" >
                 <section>
-                    { <h1 className="mainTitle"> @Dinesh Vijayakumar  </h1> }
+                    {/* { <h1 className="mainTitle"> @Dinesh Vijayakumar  </h1> } */}
                     <pre className="subTitle"> Technologist | Travel Enthusiast| Philanthropist </pre>
                 </section>
              </div>

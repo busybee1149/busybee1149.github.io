@@ -28,11 +28,10 @@ ul li a:hover {
 }
 
 .menu {
-    /* float: left; */
-    right: 5px;
+    right: 5%;
     top: 5px;
     margin-left: 100%;
-    /* position: absolute; */
+    position: absolute;
 }
 
 .mainTitle {
@@ -48,9 +47,9 @@ ul li a:hover {
 
 .subTitle {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
+    font-size: 18px;
     font-size: 2vw;
-    margin: 5px;
+    margin: 5%;
     text-align: center;
     color: #000000;
 }
@@ -58,7 +57,8 @@ ul li a:hover {
 .container {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -73,22 +73,26 @@ ul li a:hover {
 
 #homeContent {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     height: auto;
+    width:auto;
     position: relative;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 #homeFigure {
     position: relative;
+    width: auto;
 }
 
 #homeIntro {
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 5px;
     font-size: larger;
-    width: 40vw;
+    max-width: 30vw;
     position: relative;
     word-wrap: break-word;
 }
@@ -166,6 +170,7 @@ figure.pushup:hover figcaption{
 .footer {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .footer img {
@@ -174,4 +179,7 @@ figure.pushup:hover figcaption{
 }
 .header {
     height: 4vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
