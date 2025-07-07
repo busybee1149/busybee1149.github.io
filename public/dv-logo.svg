@@ -1,0 +1,23 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+     <defs>
+          <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+               <stop offset="0%" stop-color="#90cdf4" />
+               <stop offset="60%" stop-color="#4299e1" />
+               <stop offset="100%" stop-color="#2b6cb0" />
+          </radialGradient>
+          <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+               <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#2b6cb0"
+                    flood-opacity="0.18" />
+          </filter>
+     </defs>
+     <circle cx="32" cy="32" r="28" fill="url(#bgGrad)" filter="url(#shadow)" />
+     <!-- Highlight arc -->
+     <path d="M44 16a20 20 0 0 0-24 0" stroke="#fff" stroke-width="2.5" stroke-linecap="round"
+          fill="none" opacity="0.7" />
+     <!-- Interlocking D -->
+     <path d="M22 44V20h7.5c6 0 9.5 3.5 9.5 8.5s-3.5 8.5-9.5 8.5H22" stroke="#fff" stroke-width="3"
+          fill="none" stroke-linecap="round" stroke-linejoin="round" />
+     <!-- Interlocking V -->
+     <path d="M41 20l-5.5 16-5.5-16" stroke="#fff" stroke-width="3" fill="none"
+          stroke-linecap="round" stroke-linejoin="round" />
+</svg> 
