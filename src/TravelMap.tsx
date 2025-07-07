@@ -37,6 +37,7 @@ const travelLocations = [
      { name: 'Bahamas', position: [25.0343, -77.3963] },
      { name: 'Costa Rica', position: [9.7489, -83.7534] },
      { name: 'Spain', position: [40.4637, -3.7492] },
+     { name: 'UAE', position: [23.4241, 53.8478] },
 ];
 
 const TravelMap: React.FC = () => (
