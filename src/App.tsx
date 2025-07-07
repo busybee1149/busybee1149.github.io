@@ -2,8 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import TravelMap from './TravelMap';
 
-const summary = `Software Engineer with 12+ years of experience in back-end, building and maintaining reliable, scalable distributed systems in production. Domain expert in E-commerce, Supply Chain and Logistics. Experienced in designing, developing and troubleshooting containerized services in AWS Cloud. Passionate about Big Data Technologies and Developer Tooling with familiarity in Machine Learning.`;
-
 const TABS = [
   { key: 'home', label: 'Home' },
   { key: 'blog', label: 'Blog' },
