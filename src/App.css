@@ -308,27 +308,30 @@ ul li:before {
   }
   .portfolio-container {
     background: #232946;
-    color: #e3e8f0;
+    color: #fff;
     box-shadow: 0 8px 40px rgba(30,34,54,0.25), 0 2px 8px rgba(30,34,54,0.13);
   }
   header, footer {
     background: #232946;
-    color: #e3e8f0;
+    color: #fff;
     box-shadow: 0 2px 12px rgba(30,34,54,0.13);
   }
   section {
     background: #232946;
-    color: #e3e8f0;
+    color: #fff;
   }
   section:hover {
-    background: #181c25;
+    background: #232946;
   }
   section h3 {
     color: #90cdf4;
     border-bottom: 1.5px solid #232946;
   }
+  ul li, section p, section ul {
+    color: #fff;
+  }
   ul li:before {
-    color: #4299e1;
+    color: #90cdf4;
   }
   .tab-btn {
     color: #90cdf4;
@@ -346,6 +349,15 @@ ul li:before {
     background: #181c25;
   }
   footer a:hover, footer a:focus {
+    background: #4299e1;
+    color: #fff;
+  }
+  .country-pill {
+    background: #181c25;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(30,34,54,0.13);
+  }
+  .country-pill:hover, .country-pill:focus {
     background: #4299e1;
     color: #fff;
   }
