@@ -35,10 +35,15 @@ const travelLocations = [
      { name: 'Germany', position: [51.1657, 10.4515] },
      { name: 'Switzerland', position: [46.8182, 8.2275] },
      { name: 'Bahamas', position: [25.0343, -77.3963] },
+     { name: 'Costa Rica', position: [9.7489, -83.7534] },
+     { name: 'Spain', position: [40.4637, -3.7492] },
 ];
 
 const TravelMap: React.FC = () => (
      <div style={{ width: '100%', maxWidth: 700, margin: '0 auto', height: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <div style={{ fontSize: '1.3rem', fontWeight: 700, color: '#2b6cb0', margin: '1rem 0 0.5rem 0', letterSpacing: '0.5px' }}>
+               Countries Visited: {travelLocations.length}
+          </div>
           <MapContainer center={[20, 0]} zoom={2} style={{ width: '100%', height: 400, borderRadius: 12 }} scrollWheelZoom={false}>
                <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
