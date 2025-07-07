@@ -316,6 +316,12 @@ ul li:before {
     color: #fff;
     box-shadow: 0 2px 12px rgba(30,34,54,0.13);
   }
+  footer {
+    color: #fff !important;
+    font-weight: 600;
+    text-shadow: 0 1px 4px #000a;
+    background: #232946 !important;
+  }
   section {
     background: #232946;
     color: #fff;
@@ -345,12 +351,14 @@ ul li:before {
     color: #90cdf4;
   }
   footer a {
-    color: #232946;
-    background: #181c25;
+    color: #fff !important;
+    background: #232946 !important;
+    font-weight: 700;
+    text-shadow: 0 1px 4px #000a;
   }
   footer a:hover, footer a:focus {
-    background: #4299e1;
-    color: #fff;
+    background: #4299e1 !important;
+    color: #fff !important;
   }
   .country-pill {
     background: #181c25;
